@@ -1,12 +1,57 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive Todo application built with React and Material UI. This app allows users to create, manage, and track their tasks efficiently. It’s a great example of a beginner-friendly React project, showcasing state management, component structure, and user interaction.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo of the app [here](#) (add your live demo link if available).
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Relayyl6/React-Todo-App-with-Material-UI.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd react-todo-app
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:5173` to view the app.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **JavaScript (ES6+)**: Modern JavaScript syntax for cleaner and more efficient code.
+- **CSS**: For styling the application.
+- **Material UI** components such as the dialog boxed and card for each ToDo item, was styled using Material UI
+- **Local Storage**: To persist tasks in the browser.
+
+## Contributing
+
+Contributions are welcome! If you’d like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeatureName`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeatureName`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by various todo apps and tutorials.
+- Built as a learning project to understand React fundamentals.
+
